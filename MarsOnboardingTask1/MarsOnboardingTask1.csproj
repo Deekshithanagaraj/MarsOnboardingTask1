@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\Language.feature.cs" />
     <SpecFlowObsoleteCodeBehindFiles Remove="Features\SignIn.feature.cs" />
   </ItemGroup>
 
