@@ -15,7 +15,7 @@ Scenario Outline:Add a language
 	| Kannada  | Native/Bilingual |
 	| G#*r$&Y  | Conversational   |
 	|     1    | Fluent           |
-	| English  | Fluent           |
+	| English  | Basic            |
 	
 
 @Order(2)
@@ -38,4 +38,4 @@ Scenario Outline:Delete a language
 
 	Examples: 
 	| language   |language level   |
-	| English    |Conversational   |
+	| English    |Fluent           |
