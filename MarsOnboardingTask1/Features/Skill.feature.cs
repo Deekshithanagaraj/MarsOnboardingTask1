@@ -187,8 +187,8 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Delete a skill")]
         [NUnit.Framework.CategoryAttribute("Order(3)")]
-        [NUnit.Framework.TestCaseAttribute("R", null)]
-        public virtual void DeleteASkill(string skill, string[] exampleTags)
+        [NUnit.Framework.TestCaseAttribute("R", "Beginner", null)]
+        public virtual void DeleteASkill(string skill, string skillLevel, string[] exampleTags)
         {
             string[] @__tags = new string[] {
                     "Order(3)"};
@@ -199,6 +199,7 @@ this.ScenarioInitialize(scenarioInfo);
             string[] tagsOfScenario = @__tags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("Skill", skill);
+            argumentsOfScenario.Add("Skill Level", skillLevel);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Delete a skill", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 33
 this.ScenarioInitialize(scenarioInfo);
