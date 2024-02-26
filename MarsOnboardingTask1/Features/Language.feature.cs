@@ -80,7 +80,7 @@ namespace MarsOnboardingTask1.Features
         [NUnit.Framework.TestCaseAttribute("Kannada", "Native/Bilingual", null)]
         [NUnit.Framework.TestCaseAttribute("G#*r$&Y", "Conversational", null)]
         [NUnit.Framework.TestCaseAttribute("1", "Fluent", null)]
-        [NUnit.Framework.TestCaseAttribute("English", "Fluent", null)]
+        [NUnit.Framework.TestCaseAttribute("English", "Basic", null)]
         public virtual void AddALanguage(string language, string languageLevel, string[] exampleTags)
         {
             string[] @__tags = new string[] {
@@ -186,7 +186,7 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Delete a language")]
         [NUnit.Framework.CategoryAttribute("Order(3)")]
-        [NUnit.Framework.TestCaseAttribute("English", "Conversational", null)]
+        [NUnit.Framework.TestCaseAttribute("English", "Fluent", null)]
         public virtual void DeleteALanguage(string language, string languageLevel, string[] exampleTags)
         {
             string[] @__tags = new string[] {
