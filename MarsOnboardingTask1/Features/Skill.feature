@@ -37,5 +37,5 @@ Scenario Outline: Delete a skill
 	Then The '<Skill>' should be deleted accordingly
 	
 	Examples:
-	| Skill  |
-	| R      |
+	| Skill | Skill Level |
+	| R     | Beginner    |
