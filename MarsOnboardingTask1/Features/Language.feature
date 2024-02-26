@@ -19,7 +19,7 @@ Scenario Outline:Add a language
 	
 
 @Order(2)
-Scenario Outline:Edit a language
+Scenario Outline: Edit a language
 	Given I signed in the portal
 	When I click on Languages tab
 	And I edit the last '<language>' at a different '<language level>'

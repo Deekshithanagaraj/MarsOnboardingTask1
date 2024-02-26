@@ -10,7 +10,7 @@ namespace MarsOnboardingTask1.Hooks
         private ChromeDriver driver;
 
         [BeforeScenario]
-        public void BeforeScenarioWithTag()
+        public void BeforeScenariowithTag()
         {
 
             driver = new ChromeDriver();
